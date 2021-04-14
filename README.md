@@ -12,7 +12,7 @@ There are several ways to stay informed:
 ---
 
 ### **U21-02:** Fluorescence angiography
-<p align="center"><img width="100%" src="./images/u2102.png" /></p>
+<p align="center"><img width="100%" src="./docs/images/figures/thematic.jpg" /></p>
 
 >Visit the [website](https://ultrathononline.github.io/MAIDS.U21-02.Florescence_angiography/) for this dataset or download the formatted [PDF](./docs/maids.pdf).
 ```
