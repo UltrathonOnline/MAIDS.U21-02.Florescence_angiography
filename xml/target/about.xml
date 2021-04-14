@@ -1,0 +1,233 @@
+<!-- Edit the answers below to describe your dataset -->
+<!-- Do not change questions as these are defined by the MAIDS specification -->
+<root name="ABOUT">
+    <title>
+        <question>What is the title of your dataset?</question>
+        <answer>Fluorescence angiography</answer>
+    </title>
+    <repository>
+        <question>What is the URL of the repository for this MAIDS description on Github?</question>
+        <answer>https://github.com/UltrathonOnline/MAIDS.U21-02.Florescence_angiography</answer>
+    </repository>
+    <authors>
+        <question>Who are the dataset's authors?</question>
+        <answer>
+            <author_1>
+                <!-- Primary contact that must always be specified -->
+                <firstnames>Michael</firstnames>
+                <lastname>Achiam</lastname>
+                <email>Michael.Patrick.Achiam.01@regionh.dk</email>
+            </author_1>
+            <author_2>
+                <firstnames>Morten Bo</firstnames>
+                <lastname>Svendsen</lastname>
+                <email>msve0118@regionh.dk</email>
+            </author_2>
+            <author_3>
+                <firstnames>Lars Bo</firstnames>
+                <lastname>Svendsen</lastname>
+                <email>Lars.Bo.Svendsen@regionh.dk</email>
+            </author_3>
+            <author_4>
+                <firstnames>Nikolaj</firstnames>
+                <lastname>Nerup</lastname>
+                <email>nikolaj.albeck.nerup@regionh.dk</email>
+            </author_4>
+            <author_5>
+                <firstnames>Jens</firstnames>
+                <lastname>Osterkamp</lastname>
+                <email>jens.thomas.fredrik.osterkamp.02@regionh.dk</email>
+            </author_5>
+        </answer>
+    </authors>
+    <scores>
+        <document>
+            <score>
+                <question>What is the document score, as defined by MAIDS?</question>
+                <answer>1</answer>
+            </score>
+            <comment>
+                <question>Why was this score given? Provide a full justification.</question>
+                <answer />
+            </comment>
+            <evaluator>
+                <entityType>
+                    <question>What gave the score? [algorithm / group / committee / person]</question>
+                    <answer />
+                </entityType>
+                <entityName>
+                    <question>Name of algorithm / group / committee / person who gave the score?</question>
+                    <answer />
+                </entityName>
+                <contactName>
+                    <question>Who should be contacted to query the score?</question>
+                    <answer />
+                </contactName>
+                <contactEmail>
+                    <question>What is the contact person's email address?</question>
+                    <answer />
+                </contactEmail>
+            </evaluator>
+        </document>
+        <fairness>
+            <score>
+                <question>What is the fairness score given, as defined by MAIDS?</question>
+                <answer>?</answer>
+            </score>
+            <comment>
+                <question>Why was this score given? Provide a full justification.</question>
+                <answer />
+            </comment>
+            <evaluator>
+                <entityType>
+                    <question>What gave the score? [algorithm / group / committee / person]</question>
+                    <answer />
+                </entityType>
+                <entityName>
+                    <question>Name of algorithm / group / committee / person who gave the score?</question>
+                    <answer />
+                </entityName>
+                <contactName>
+                    <question>Who should be contacted to query the score?</question>
+                    <answer />
+                </contactName>
+                <contactEmail>
+                    <question>What is the contact person's email address?</question>
+                    <answer />
+                </contactEmail>
+            </evaluator>
+        </fairness>
+        <magnitude>
+            <score>
+                <question>What is the magnitude score given, as defined by MAIDS?</question>
+                <answer>6</answer>
+            </score>
+            <comment>
+                <question>Why was this score given? Provide a full justification.</question>
+                <answer />
+            </comment>
+            <evaluator>
+                <entityType>
+                    <question>What gave the score? [algorithm / group / committee / person]</question>
+                    <answer />
+                </entityType>
+                <entityName>
+                    <question>Name of algorithm / group / committee / person who gave the score?</question>
+                    <answer />
+                </entityName>
+                <contactName>
+                    <question>Who should be contacted to query the score?</question>
+                    <answer />
+                </contactName>
+                <contactEmail>
+                    <question>What is the contact person's email address?</question>
+                    <answer />
+                </contactEmail>
+            </evaluator>
+        </magnitude>
+        <synthetic>
+            <score>
+                <question>What is the synthetic score given, as defined by MAIDS?</question>
+                <answer>E</answer>
+            </score>
+            <comment>
+                <question>Why was this score given? Provide a full justification.</question>
+                <answer />
+            </comment>
+            <evaluator>
+                <entityType>
+                    <question>What gave the score? [algorithm / group / committee / person]</question>
+                    <answer />
+                </entityType>
+                <entityName>
+                    <question>Name of algorithm / group / committee / person who gave the score?</question>
+                    <answer />
+                </entityName>
+                <contactName>
+                    <question>Who should be contacted to query the score?</question>
+                    <answer />
+                </contactName>
+                <contactEmail>
+                    <question>What is the contact person's email address?</question>
+                    <answer />
+                </contactEmail>
+            </evaluator>
+        </synthetic>
+    </scores>
+    <thematic>
+        <filename>thematic.jpg</filename>
+    </thematic>
+    <abstract>
+        <question>Please provide a brief abstract describing this dataset.</question>
+        <answer>The purpose was to offer quantities of videos to enable the development of motion correction algorithms for subsequent data acquisition. The algorithm/program should be able to accurately adjust which pixels are sampled within each frame to keep a Region-of-Interest within the target area and, thus, produce a more sensitive and accurate quantification.</answer>
+    </abstract>
+    <usecases>
+        <question>Please provide one or more short use cases to highlight what this dataset might be used for. These should summarise the main and secondary research questions into single sentence objectives. You may also use this section to expand on possible uses not discussed in the research questions.</question>
+        <answer>
+            <usecase_1 />
+        </answer>
+    </usecases>
+    <research>
+        <main>
+            <question>Please state, in detail, the main hypothesis for which this dataset was created.</question>
+            <answer>Fluorescence angiography is an applied method to assess visceral perfusion during surgical procedures. For the correct clinical interpretation of the fluorescent signal, quantification using a computer-controlled algorithm is essential. The regions of interest (ROI) for quantification are marked on a computer screen and not on the physical target area (organ/tissue) itself. For the algorithm to obtain accurate values from the ROI, the targeted area should optimally remain in a fixed position during quantification, herein lies the technical challenge. Due to motions from respiration, heartbeats, and intestinal peristalsis, the target area will inevitably move in relation to the ROI selected on the computer screen, causing movement fluctuation in the quantification, affecting final accuracy. Also, small movements of the camera can be disturbing to the quantification process. We hypothesize that an additional algorithm/program could fix the ROIs' relative position on the target area and automatically adjust for target area movement during quantification. Hence, producing a more sensitive and accurate quantification.</answer>
+        </main>
+        <secondary>
+            <question>Please state, in detail, any other hypotheses which this dataset would be able to address.</question>
+            <answer>There are different systems/modalities for capturing NIR fluorescence. The fluorescence signal is generated by illuminating the tissue with NIR light and recording the NIR light emitted by the excited fluorophores. The output is generally false coloured (to a green or blue colour) in the different commercially available NIR systems/modalities and fused onto a full spectrum light (RGB) video output. We hypothesise that an algorithm/program could separate and convert the output of the different commercially available systems/modalities into a standardised NIR fluorescence signal. The algorithm/program would, as such, be able to quantify every available modality instead of having to construct a specific algorithm for every different modality.</answer>
+        </secondary>
+    </research>
+    <figures>
+        <question>Please entitle and provide a legend for each figure found in "./images/figures/".</question>
+        <answer>
+            <!-- Template: <figure_1><filename /><title /><legend /></figure_1> -->
+            <figure_1>
+                <filename>Picture1.png</filename>
+                <title>Monitoring devices</title>
+                <legend>Schematic of multiple devices/equiment providing critical feeback to surgeons</legend>
+            </figure_1>
+            <figure_2>
+                <filename>Picture2.png</filename>
+                <title>Side-by-side flourescent angiography demonstrating technical problem</title>
+                <legend>The regions of interest for quantification (blue square) on the target organ are placed before flourescent angiography (A). During flourescent angiography (B), the target organ has shifted due to respiratory movements. Hence the area quantified will not be from the desired (A) area of the target organ.</legend>
+            </figure_2>
+        </answer>
+    </figures>
+    <subsetAssociations>
+        <filename>subsets.jpg</filename>
+        <legend>
+            <question>What is the legend for the figure describing how subsets are associated to one another?</question>
+            <answer>This dataset contains multiple groups of unrelated videos.</answer>
+        </legend>
+    </subsetAssociations>
+    <populationSelection>
+        <rootNode>
+            <nodeid>0</nodeid> <!-- Do not change. Use nodeids as reference points. -->
+            <name />
+            <description />
+            <sources>
+                <!-- INSERT TEMPLATE SOURCES HERE  -->
+            </sources>
+        </rootNode>
+        <!-- INSERT TEMPLATE NODES HERE AND REFERENCE THEIR PARENTS -->
+    </populationSelection>
+</root>
+<!-- NODE TEMPLATES FOR DEFINING THE POPULATION SELECTION GRAPH 
+<node>
+    <nodeid />
+    <name />
+    <description />
+    <location />
+</node>
+
+<source>
+    <entityName />
+    <entityAddress />
+    <contactPerson />
+    <contactEmail />
+    <dataDescription />
+    <instancesContributed />
+    <beginDateCollection />
+    <endDateCollection />
+</source>
+-->
