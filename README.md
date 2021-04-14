@@ -1,13 +1,26 @@
-![](banner.png?raw=true)
+<p align="center"><img width="100%" src="./banner.png" /></p>
 
-The official template for Medical AI Datasheets.
+This repository contains the MAIDS description for project U21-01. It was built by cloning the [MAIDS-Template](https://github.com/PERSIMUNE/MAIDS-Template). You will find more details about this dataset below with links to visit the website and download the PDF.
 
-*v0.2-alpha*
+>MAIDS is currently being prototyped for the [Copenhagen Ultrathon on Precision Medicine](https://ultrathon.online) where you will find more information about the event. You may also be interested in viewing other examples listed in the 2021 Ultrathon [Project Pool](https://github.com/UltrathonOnline/U21-PROJECT-POOL).
 
-MAIDS is currently being prototyped for the [Copenhagen Ultrathon on Precision Medicine](https://ultrathon.online) where you will find several examples.
+There are several ways to stay informed:
+* Visit the Ultrathon's [landing page](https://ultrathon.online) and sign up to the mailing list.
+* Follow us on [Twitter](https://twitter.com/UltrathonOnline).
+* Watch the repository for changes.
 
-This repository is intended to maintain the code and protocols for authoring new MAIDS documents based on the MAIDS specification ([maintained separately](https://github.com/PERSIMUNE-Health-Informatics/MAIDS-Specification)). The specification is included as a submodule ensuring proper tracking of provenance when forking this repo to create new MAIDS documents.
+---
 
-You can make use of this template either through the Github templating button at the top of this page or by cloning and changing the remote to your organisation or own account. Templating makes it quick and easy to get started but you will not be able to merge any updates using git. Cloning, on the other hand, will allow you to use git to update provided you know how. We plan to make updating easier in the future, but for now these are your only options. Please do not fork this repository unless you would actually like to contribute directly to this project.
+### **U21-02:** Fluorescence angiography
+<p align="center"><img width="100%" src="./images/u2102.png" /></p>
 
-Please watch/star if you'd like to be notified of new developments.
+>Visit the [website](https://ultrathononline.github.io/MAIDS.U21-02.Florescence_angiography/) for this dataset or download the formatted [PDF](./docs/maids.pdf).
+```
+Michael Achiam, Morten Bo Svendsen, Lars Bo Svendsen, Nikolaj Nerup, Jens Osterkamp
+@: Rigshospitalet, Copenhagen, Denmark
+
+The purpose was to offer quantities of videos to enable the development of motion correction algorithms
+for subsequent data acquisition. The algorithm/program should be able to accurately adjust which pixels
+are sampled within each frame to keep a Region-of-Interest within the target area and, thus, produce a
+more sensitive and accurate quantification.
+```
